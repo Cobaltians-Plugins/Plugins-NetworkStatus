@@ -15,6 +15,10 @@ Use the `cobalt.network.getStatus` shortcut :
     // Somewhere after cobalt initialized
     cobalt.network.getStatus(function(status) {
         cobalt.log('Current connection to the network is: ', status);
+
+        if (status === cobalt.networkStatus.status.WIFI) {
+            // Do something that needs to be done on a fast network
+        }
     });
 
 Possible network status values are listed in the `cobalt.networkStatus.status` enum :
