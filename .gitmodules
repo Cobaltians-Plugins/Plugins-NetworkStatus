@@ -1,0 +1,12 @@
+[submodule "Plugins-NetworkStatus-Android"]
+	path = Plugins-NetworkStatus-Android
+	url = https://github.com/Cobaltians-Plugins/Plugins-NetworkStatus-Android/
+	branch = develop
+[submodule "Plugins-NetworkStatus-iOS"]
+	path = Plugins-NetworkStatus-iOS
+	url = https://github.com/Cobaltians-Plugins/Plugins-NetworkStatus-iOS
+	branch = develop
+[submodule "Plugins-NetworkStatus-Web"]
+	path = Plugins-NetworkStatus-Web
+	url = https://github.com/Cobaltians-Plugins/Plugins-NetworkStatus-Web
+	branch = develop
