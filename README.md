@@ -42,14 +42,14 @@ The web can also subscribe to network status changes:
     };
 
     // Then, start listening to network changes
-    cobalt.networkStatus.startStatusMonitoring();
+    cobalt.networkStatus.startMonitoring();
 
     // Later on, you can stop listening
-    cobalt.networkStatus.stopStatusMonitoring();
+    cobalt.networkStatus.stopMonitoring();
 
 Alternatively, you can set the callback function and start listening at the same time:
 
-    cobalt.networkStatus.startStatusMonitoring(function (status) {
+    cobalt.networkStatus.startMonitoring(function (status) {
         cobalt.log('Network status changed: ', status);
     });
 
